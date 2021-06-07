@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> login/register to AI hospital </title>
+<style>
+body {background-color:powderblue;}
+</style>
+
+
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("E-Mail must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+<h1>Login</h1>
+
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+ E-Mail: <input type="text" name="fname" title="enter your email"><br><br>
+
+ Password: <input type = "Password" size ="20" title="enter your password"> </input><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<h2>If you don't have an account</h2>
+<a href="register/register.html">register here</a>
+
+
+</body>
+</html>

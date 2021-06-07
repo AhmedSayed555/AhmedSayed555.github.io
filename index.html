@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Hospital</title>
+
+<style>
+
+input[type=text] {
+  width: 90%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+
+body {background-color:powderblue;}  
+h1   {color: red;
+background-color:green;
+}                
+h1{border-style: solid;
+border-color : red;            
+padding :10px;
+margin: 10px;                
+outline-style: dotted;
+outline-color: red;
+}
+h2   {color: green;
+padding :10px;
+}
+
+
+
+.vertical-menu {
+  width: 650px;
+}
+
+.vertical-menu a {
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: red;
+}
+
+.vertical-menu a.active {
+  background-color: green;
+  color: white;
+}
+
+
+
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href = "sy.css"/>
+
+
+
+</head>
+<body>
+<h1 style="font-size:450%;">AI Hospital</h1>
+<h2 style="font-size:200%;">welcome to our website</h2>
+
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+<img src="Doctors-bro.png" width="20%"  title="we have Excellent staff" >
+<img src="Doctors-rafiki.png" width="20%" title=" Our work is organized">
+
+<div class="vertical-menu">
+  <a class="active">Menu</a>
+  <a href="pages\login.html" title="go to your account">Login/Register</a>
+  <a href="pages\call us.html" title="ways to contact us">contact us</a>
+  <a href="pages\data.html" title="data of Patients">Data</a>
+  <a href="pages\about.html" title="more information about our hospital">About</a>
+</div>
+<pre>
+<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</pre>
+<div>
+<h3 style="font-size:150%" >Pictures of our hospital:</h3>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="well-hospital-chen-mobileMasterAt3x.jpg" style="width:100%">
+  <div class="text">Clean</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="1571253189717.jpg" style="width:100%">
+  <div class="text">A huge building</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hospital-hallway.jpg" style="width:100%">
+  <div class="text"> Beutiful hallway </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script type="text/javascript" src="java.js"></script>
+
+
+</div>
+<pre>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+</pre>
+</div>
+<h4>For more health care advice and more information, visit the Ministry of Health website:</h4>
+<div  class="tooltip" >
+<span class="tooltiptext">Ministry of Health </span>
+      <a href="https://egcovac.mohp.gov.eg/#/home">
+         <img src = "hbrP8HP4_400x400.jpg"  title="the Ministry of Health website"width="600" height="450">
+      </a>
+
+<h5>Follow the ministry of health on:</h5>
+<p><a href="https://www.facebook.com/egypt.mohp" title="facebook" >Facebook</a></p>
+<p><a href="https://twitter.com/mohpegypt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="twitter" >Twitter</a></p>
+
+<a href="#" title="return to the menu" >Menu</a>
+
+</body>
+</html>

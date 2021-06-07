@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> register to AI hospital </title>
+<style>
+body {background-color:powderblue;}
+</style>
+
+</head>
+<body>
+
+<h1> Register</h1>
+ <form action="/action_page.php">
+
+<label for= "fname" > First Name : </label>
+<input type = "text" size ="20"  id ="fname" > </input>
+<br><br>
+<label for= "lname" > Last Name : </label>
+<input type = "text" size ="20" > </input><br><br>
+
+<label for= "Password" > Password : </label>
+<input type = "Password" size ="20"> </input><br><br>
+
+<label for= "Birthday" > your Birthday : </label>
+<input type = "Date" id ="BD" name="BD"> </input><br><br>
+
+<label for= "email" > E-Mail: </label>
+<input type = "email" id ="email" name="email" placeholder = "EX:xyz@gmail.com"> </input><br><br>
+
+<label for= "Description" > Description:</label>
+<textarea type = "Description" id ="Description" name="Description"> </textarea><br><br>
+
+<label for="city">Choose a city:</label>
+<select name="city" id="city">
+  <option value="Cairo">Cairo</option>
+  <option value="Giza">Giza</option>
+  <option value="Others">Others</option>
+</select>
+
+
+<p>Did you catch one of these diseases?</p>
+<input type="checkbox" id="Diabetes" name="Diabetes" value="Diabetes">
+  <label for="Diabetes"> Diabetes</label><br>
+  <input type="checkbox" id="high blood pressure" name="high blood pressure" value="high blood pressure">
+  <label for="high blood pressure"> high blood pressure</label><br>
+  <input type="checkbox" id="Kidney disease" name="Kidney disease" value="Kidney disease">
+  <label for="Kidney disease"> Kidney disease</label><br>
+  <input type="checkbox" id="heart disease" name="heart disease" value="heart disease">
+  <label for="heart disease"> heart disease</label><br>
+  
+
+ <fieldset>
+ <legend > Gender </legend>
+<input type = "radio" id= "male" name="gender"> </input>
+<label for= "Male" > Male </label><br><br>
+
+<input type = "radio"  id ="female" name="gender"> </input>
+<label for= "Female" > Female </label><br><br>
+ </fieldset>
+ 
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
